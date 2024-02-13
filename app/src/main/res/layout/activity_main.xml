@@ -31,7 +31,7 @@
         android:textColor="#000000"
         android:textSize="34sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/numCantiComodin"
+        app:layout_constraintBottom_toTopOf="@+id/comodinesTextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -47,7 +47,7 @@
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/numCantiComodin" />
+        app:layout_constraintTop_toBottomOf="@+id/comodinesTextView" />
 
     <TextView
         android:id="@+id/textView3"
@@ -74,7 +74,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
-        android:id="@+id/numCantiComodin"
+        android:id="@+id/comodinesTextView"
         android:layout_width="126dp"
         android:layout_height="0dp"
         android:layout_marginStart="47dp"
